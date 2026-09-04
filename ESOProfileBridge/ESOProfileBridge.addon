@@ -1,0 +1,16 @@
+## Title: ESO Profile Bridge
+## Author: Steven Chaplinski
+## Version: 0.1.0
+## APIVersion: 101050 101051
+## AddOnVersion: 1
+## Description: Console-friendly profile and settings portability framework for ESO addons.
+## SavedVariables: ESOProfileBridgeSavedVariables
+
+core/Constants.lua
+core/Util.lua
+core/Serializer.lua
+core/ProfileStore.lua
+core/AdapterRegistry.lua
+adapters/ExampleAdapter.lua
+ui/ProfileUI.lua
+ESOProfileBridge.lua
