@@ -1,0 +1,11 @@
+rank,concept,demand_10,competition_10,difficulty_10,console_fit_10,opportunity_10,status
+1,QuestLens,10,5,6,9,10,Research candidate
+2,Addon Doctor,9,2,7,10,10,Research candidate
+3,InventoryLens,10,4,8,8,9.5,Research candidate
+4,CraftBrain,9,5,6,9,9,Research candidate
+5,CompletionLens,9,5,6,9,9,Research candidate
+6,HUD Studio,8,5,6,9,8.5,API feasibility needed
+7,TradeLens PS,10,5,9,7,8,Data-source research needed
+8,LoadoutOS / Add-on Profiles,9,2,8,10,8,API feasibility needed
+9,Combat Intelligence,9,8,8,7,7,Defer until core tooling exists
+10,Immersion Suite,6,3,7,7,6.5,API dependent
