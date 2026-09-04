@@ -1,0 +1,38 @@
+name,category,ps5_signal,evidence_level,notes
+Lazy Writ Crafter,Crafting,Strong,Multiple recent PS5/console user reports,Repeatedly described as must-have
+Can Craft Master Writ,Crafting,Strong,Multiple recent console user reports,Used for batching master writs
+TSC / Tamriel Savings Co.,Trading,Strong,Multiple recent console user reports,Price guidance for console economy
+702 tracker family,Completion/Crafting,Strong,Multiple recent console user reports,Plans motifs research account knowledge
+Code's Combat Alerts,Combat,Strong,Multiple recent console user reports,Mechanic alerts
+CrutchAlerts,Combat,Strong,Multiple recent console user reports,Endgame mechanic alerts
+Battle Scrolls,Combat,Moderate,Recent console user report,Fight/DPS information
+Crux Tracker,Combat,Moderate,Recent console user report,Combat resource tracking
+Global Cooldown Metronome,Combat,Moderate,Recent console user report,Combat timing
+Votan's Minimap,Map/UI,Strong,Multiple recent PS5 reports,Minimap
+Circular Votan's Minimap,Map/UI,Strong,Recent PS5 user report,Circular minimap variant
+HarvestMap,Map/Exploration,Strong,Multiple recent PS5/console reports,Resource-node and exploration data
+Map Pins,Map/Exploration,Strong,Recent PS5 user report,Map marker framework/content
+Murf's Skyshards,Map/Completion,Strong,Recent PS5 user reports,Skyshard tracking
+Murf's Lorebooks,Map/Completion,Strong,Recent PS5 user reports,Lorebook tracking
+Murf's Treasures,Map/Completion,Strong,Recent PS5 user reports,Treasure assistance
+Map of Many Riches,Map/Completion,Moderate,PS5 user report,Treasure/survey map pins
+BeamMeUp,Travel,Strong,Recent PS5 user report,Travel convenience
+Wizard's Wardrobe,Builds,Strong,Multiple recent PS5 user reports,Setup swapping
+Chat Log Preserver,Chat,Strong,Recent PS5 user report,Preserves chat history
+Got To Open 'Em All,Inventory/QoL,Strong,Recent PS5 user report,Container-opening convenience
+Stay Mounted,QoL,Strong,Recent PS5 user report,Mount convenience
+Auto Bind Uncollected Set Items,Inventory/QoL,Strong,Recent console user reports,Automates binding uncollected set items
+Auto Extract,Inventory/QoL,Strong,Recent console user reports,Surveys/master-writ information convenience
+Auto Recharge and Repair,Inventory/QoL,Strong,Recent console user reports,Automatic recharge/repair
+Abah's Appraiser,Inventory/QoL,Strong,Recent console user reports,Auto-sell junk / inventory cleanup
+QAutoConfirm,QoL,Strong,Recent console user reports,Reduces repetitive confirmations
+AutoLoot+,Inventory/QoL,Moderate,Recent PS5 user report,Loot automation
+Antiquarians Codex,Antiquities,Moderate,Recent console user report,Tooltip/antiquity information
+Points of Color,UI,Strong,Recent PS5 recommendations,Colored map icons
+Volcano's Stat Colors,UI,Strong,Recent PS5 recommendations,Colored stat presentation
+Rainbow Reticle,UI,Strong,Recent PS5 recommendations,Reticle customization
+PinKiller,Immersion/Map,Moderate,PS5 first-playthrough report,Hides map pins for exploration-focused play
+True Exploration,Immersion/Map,Moderate,PS5 first-playthrough report,Exploration-focused map behavior
+Immersive Quests,Immersion/Quest,Moderate,PS5 first-playthrough report,Quest presentation changes
+Side Quests,Quest/Map,Strong,Developer post plus console beta,Quest Map-like beta with current data/filter limitations
+MemoryUsage,Developer Utility,Strong,ESOUI developer project,Total console add-on memory pool monitor in console flow mode
