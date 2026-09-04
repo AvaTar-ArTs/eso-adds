@@ -55,6 +55,8 @@ Primary sources:
 - ESO Support: Enable/manage console add-ons: https://help.elderscrollsonline.com/app/answers/detail/a_id/70903/
 - ESO Support: ESO UI API: https://help.elderscrollsonline.com/app/answers/detail/a_id/1081/
 - ESO Support: What add-ons are: https://help.elderscrollsonline.com/app/answers/detail/a_id/9127/
+- Official ESO forum index: https://forums.elderscrollsonline.com/en/categories
+- Official Add-Ons & UI Mods forum: https://forums.elderscrollsonline.com/en/categories/add-ons-and-ui-mods
 
 ## Repository map
 
@@ -66,9 +68,11 @@ Primary sources:
 | [`docs/ps5-addon-landscape.md`](docs/ps5-addon-landscape.md) | Add-ons currently reported/recommended by PS5/console players |
 | [`docs/requested-and-missing.md`](docs/requested-and-missing.md) | Deep dive into repeatedly requested / wished-for capabilities |
 | [`docs/opportunity-map.md`](docs/opportunity-map.md) | Ranked original-addon opportunities and proposed product family |
+| [`docs/forum-index.md`](docs/forum-index.md) | Structured map of the official ESO forum and high-value console/addon threads |
 | [`docs/sources.md`](docs/sources.md) | Source ledger with evidence type and notes |
 | [`data/ps5-addons.csv`](data/ps5-addons.csv) | Seed inventory of console/PS5 add-ons mentioned in current research |
 | [`data/opportunities.csv`](data/opportunities.csv) | Working opportunity scoring model |
+| [`data/forum-signals.csv`](data/forum-signals.csv) | Structured forum demand, bug, compatibility, staff and developer signals |
 
 ## Current conclusions
 
@@ -86,6 +90,23 @@ Current top opportunities:
 8. **ESO Profile Bridge** — normalized profile capture/restore across compatible addons, with transport treated as a separately validated console problem.
 
 A recurring architecture idea is a shared **AvaTar ESO ConsoleKit** providing controller UI, SavedVariables wrappers, event routing, map pins, settings, diagnostics, localization and lightweight data utilities once for the whole family. EPB is a natural candidate for one of the first consumers of that shared layer.
+
+## Forum intelligence layer
+
+The official forum is now treated as a living research corpus rather than a handful of addon links. The dedicated Add-Ons & UI Mods board is only one layer; PlayStation Technical Support, Bug Reports, PTS, General Discussion, Game Systems, Quests, Combat, Patch Notes and the Dev Tracker all contain signals relevant to console addon design.
+
+Early indexing has already surfaced direct evidence for:
+
+- configuration backup/export demand on console,
+- addon loadout/profile demand,
+- PS5 SavedVariables/autosave failures,
+- Bethesda Library / package-sync behavior,
+- missing library/dependency failures,
+- console memory threshold behavior,
+- addon-browser outages,
+- and real console-port UX limitations.
+
+See [`docs/forum-index.md`](docs/forum-index.md) and [`data/forum-signals.csv`](data/forum-signals.csv).
 
 ## Important legal / ethical rule
 
@@ -108,6 +129,8 @@ The same rule applies to EPB: PS5 filesystem access, arbitrary network access, c
 
 ## Next research/build phases
 
+- Continue indexing the official ESO forum from the June 2025 console-addon launch forward, with special passes over Add-Ons & UI Mods, PlayStation Technical Support, Bug Reports, PTS and Dev Tracker.
+- Join forum signals against the Bethesda PlayStation addon catalog so each request/bug can be connected to an existing addon, missing capability or platform constraint.
 - Audit `ESOProfileBridge/` line by line against the current official ESO UI API and console documentation.
 - Complete a bounded non-executing serializer decoder with validation, payload limits, schema versions and malformed-input tests.
 - Build one real addon adapter and prove capture → mutate → restore → reload.
